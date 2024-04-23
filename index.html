@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;500&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <title>Dragon Repeller Game - by @anabeeella</title>
+</head>
+
+<body>
+    <div id="game">
+        <div id="stats">
+            <div id="logo">
+                <span class="icon-stat logo">DRG</span>
+            </div>
+            <div class="stats-group">
+                <div class="stat">
+                    <span class="icon-stat">🔥</span>
+                    <span id="xpText" class="text-stat">0</span>
+                </div>
+                <div class="stat">
+                    <span class="icon-stat">❤️</span>
+                    <span id="healthText" class="text-stat">100</span>
+                </div>
+                <div class="stat">
+                    <span class="icon-stat">💰</span>
+                    <span id="goldText" class="text-stat">50</span></span>
+                </div>
+            </div>
+
+        </div>
+        <div id="main-content">
+            <div id="story-container">
+                <div class="story-location">
+                    <p id="locationName">Town Square</p>
+                </div>
+                <div id="text">
+                    <strong>Welcome to Dragon Repeller!</strong>
+                    You must defeat the dragon that is preventing people from leaving the town.
+                    What do you want to do?
+                </div>
+            </div>
+            <div id="locationImage">
+                <img class="location-image" src="./images/town.png" alt="Imagen de inicio">
+            </div>
+            <div id="monsterStats">
+                <span class="icon-stat dragon">🐲</span>
+                <div class="monster-name">
+                    <span class="monster-label">Name:</span>
+                    <span id="monsterName"></span>
+                </div>
+                <div class="monster-health">
+                    <span class="monster-label">Health:</span>
+                    <span id="monsterHealth"></span>
+                </div>
+            </div>
+        </div>
+        <div id="controls">
+            <button id="button1">Go to store</button>
+            <button id="button2">Go to cave</button>
+            <button id="button3">⚔️ Fight</button>
+        </div>
+        <script src="/main.js"></script>
+</body>
+
+</html>
